@@ -9,8 +9,7 @@ const port = 3010;
 app.use(bodyParser.json());
 app.use(express.static('static'));
 
-mongoose.connect("mongodb+srv://Viki713:TVK@cluster0.hmd9m.mongodb.net/E-commerce"
-)
+mongoose.connect("mongodb+srv://Viki713:TVK@cluster0.hmd9m.mongodb.net/database")
 .then(() => {
   console.log('Connected to MongoDB Atlas');
 })
